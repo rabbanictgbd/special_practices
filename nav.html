@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav practive by tailwindcss</title>
     <link href="/dist/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68601c01aa.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link href="/dist/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
-        <div class="bg-blue-200 h-96">
+   
+        <nav>
+           
+                <div class="flex justify-between m-2 sm:hidden">
+                    <div>
+                        <a href=""><i class="fa-solid fa-computer"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                </div>
+                <div class="flex justify-between m-2 hidden">
+                    <div>
+                        <a href=""><i class="fa-solid fa-laptop"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                </div>
+                <div class="flex justify-between m-2 lg:hidden md:hidden ">
+                    <div>
+                        <a href=""><i class="fa-solid fa-mobile"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </div>
+                </div>
+               
+
+
+        </nav>
+
+        <div class="bg-blue-200 h-32">
 
         </div>
-    </nav>
+    
 </body>
+
 </html>
