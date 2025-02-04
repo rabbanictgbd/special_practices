@@ -5,34 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav practive by tailwindcss</title>
-    <link href="/dist/styles.css" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/68601c01aa.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
 
-    <link href="/dist/styles.css" rel="stylesheet">
+    <style>
+.font{
+    font-size: 100px;
+}
+.size{
+    height: 100px;
+}
+    </style>
 </head>
 
 <body>
    
         <nav>
            
-                <div class="flex justify-between m-2 sm:hidden">
-                    <div>
-                        <a href=""><i class="fa-solid fa-computer"></i></a>
+                <div class="lg:flex justify-between m-2 hidden">
+                    <div class="">
+                        <a class="font" href=""><i class="fa-solid fa-computer "></i></a>
+                        <a href="images/icon_desktop_color.png  "><img class="w-5 mx-2 size" src="images/icon_desktop_color.png" alt=""></a>
                     </div>
                     <div>
                         <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
                     </div>
                 </div>
-                <div class="flex justify-between m-2 hidden">
-                    <div>
-                        <a href=""><i class="fa-solid fa-laptop"></i></a>
-                    </div>
-                    <div>
-                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                    </div>
+                
                 </div>
-                <div class="flex justify-between m-2 lg:hidden md:hidden ">
+                <div class="flex justify-between m-2 lg:hidden ">
                     <div>
                         <a href=""><i class="fa-solid fa-mobile"></i></a>
                     </div>
