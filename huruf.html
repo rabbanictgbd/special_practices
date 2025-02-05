@@ -8,18 +8,56 @@
     <link href="/dist/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/68601c01aa.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
 
    <style>
     h1{
         margin: 3px;
         text-decoration: aqua;
     }
+    h1:hover{
+        font-size:70px;
+        color: rgb(42, 165, 69);
+        transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+        
+        animation: colorChange 5s infinite alternate;
+        animation: bounce 0.5s ease-in-out infinite;
+    }
+    h2{
+        font-size:70px;
+        color: rgb(42, 165, 69);
+        transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+        animation: colorChange 10s infinite alternate;
+    }
+    h1:hover::after{
+        color: blue;
+    }
+    
+    @keyframes colorChange {
+    0% { color: rgb(163, 4, 4); }  /* First color */
+    50% { color: rgb(9, 163, 3); }  /* First color */
+    100% { color: blue; } /* Second color */
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+body {
+    font-family: 'Amiri', serif;
+}
+
    </style>
     
 </head>
 
 <body>
     <div >
+        <h2>حروف الهجاء</h2>
         <h1>
             ا ب ت ث ج ح خ د ذ ر ز س ش ض ط ظ ع غ ف ق ك ل م ن و ه ء ى
         </h1>
@@ -33,6 +71,19 @@
             <h1>د ض ظ</h1>
             <h1>ق ك</h1>
         </div>
+        <div>
+            <div>
+                <h2>Sharmin Akter</h2>
+            </div>
+            <div>
+                <h2>Sharmin Akter</h2>
+            </div>
+        </div>
+        <h2>Abdul Kader Rabbani</h2>
+        <h2>Abdul Kader Rabbani</h2>
+        <h2>Abdul Kader Rabbani</h2>
+        <h2>Abdul Kader Rabbani</h2>
+       
     </div>
 </body>
 
