@@ -38,3 +38,7 @@ while(wn<=5){
     wn++
 }
 
+// array ...................................................
+let numbers=[5, 10, 2, 100, 50, 30, 15]
+
+let names= ["pavel", "yousuf", "shohel", "rakib"]
