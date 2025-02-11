@@ -29,3 +29,10 @@ while(wnr>=0){
     console.log("while number reverse" + " : " + wnr)
     wnr--
 }
+
+// Normal while loop reverse let value updated ...........................................................
+ wnr=3
+while(wnr>=0){
+    console.log("while number reverse double" + " : " + wnr)
+    wnr--
+}
