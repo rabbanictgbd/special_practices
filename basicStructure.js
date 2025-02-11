@@ -2,28 +2,39 @@
 console.log()
 
 // variable for javaScript...............................................................
-var name= "The name" // generally var then the variable name then "=" equal sign then value
-var number= 25
-const theName= "The string value"
-const theNumber= 30
-let theNameWillChange= "Changeable name"
-let theNumberWillChange= 100
+var name = "The name" // generally var then the variable name then "=" equal sign then value
+var number = 25
+const theName = "The string value"
+const theNumber = 30
+let theNameWillChange = "Changeable name"
+let theNumberWillChange = 100
 
 //  if, else if condition.................................................................
-if(10==15){
+if (10 == 15) {
     console.log("10 equal 10 is true")
-} 
-else if(100<50){
-console.log("The condition 1")
 }
-else if(50<50){
+else if (100 < 50) {
+    console.log("The condition 1")
+}
+else if (50 < 50) {
     console.log("The condition 2")
 }
-else if(10<50){
-console.log("The condition 3")
+else if (10 < 50) {
+    console.log("The condition 3")
 }
 else {
-console.log("All the conditions are wrong.")
+    console.log("All the conditions are wrong.")
 }
-   
-// for loop .............................................................................................
+
+// Normal for loop .............................................................................................
+for (n = 6; n <= 10; n++) {
+    console.log("for number : " + n);
+}
+
+// Normal while loop ..................................................................................
+let wn=0
+while(wn<=5){
+    console.log("while number" + " : " + wn)
+    wn++
+}
+
