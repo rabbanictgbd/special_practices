@@ -36,3 +36,47 @@ while(wnr>=0){
     console.log("while number reverse double" + " : " + wnr)
     wnr--
 }
+// break for loop by if condition................................................
+
+for(n=98; n<=200; n++){
+    console.log("200 number of " + n)
+    if(n==100){
+        break;
+    }
+   
+   
+}
+
+n=98
+while(n<=200){
+    console.log(n)
+    n++
+    if(n==101){
+        break
+    }
+}
+
+n=1
+let sum=0
+while(n<=200){
+    console.log(n)
+    console.log("total: " +sum)
+    n++
+    sum +=n
+    if(sum>=100){
+        break
+    }
+}
+
+n=1
+while(n<10){
+    n++
+    let sq=n.map
+    console.log("sq"+n)
+    console.log(sq)
+    
+}
+
+let numbers = [1, 2, 3, 4, 5];
+let squares = numbers.map(num => num ** 2);
+console.log("Squares:", squares);
