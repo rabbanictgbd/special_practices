@@ -42,3 +42,17 @@ while(wn<=5){
 let numbers=[5, 10, 2, 100, 50, 30, 15]
 
 let names= ["pavel", "yousuf", "shohel", "rakib"]
+
+// function structure.........................................
+
+function sum(value1, value2) {
+
+    const add= value1 + value2;
+    
+    console.log("the sum is: " , add);
+    
+    }
+    
+    // .......................................function call
+    
+    sum(10, 20)
