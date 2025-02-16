@@ -83,3 +83,17 @@ else {
 console.log("All the conditions are wrong.")
 }
    
+// for in for of..............................
+const numb=10
+let numbers= [1,10,12,15]
+numbers=[20,3,0,30]
+const person={
+    name : "Abdul Kader Rabbani",
+    age: 30,
+    city: "Chattogram",
+
+}
+
+for(const index of numbers){
+    console.log(index)
+}
