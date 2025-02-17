@@ -86,7 +86,7 @@ console.log("All the conditions are wrong.")
 // for in for of..............................
 const numb=10
 let numbers= [1,10,12,15]
-numbers=[20,3,0,30]
+numbers=[20,40,60,87,67,30,10]
 const person={
     name : "Abdul Kader Rabbani",
     age: 30,
@@ -94,6 +94,26 @@ const person={
 
 }
 
+console.log(numbers, numbers[0])
+
 for(const index of numbers){
-    console.log(index)
+    console.log(index, numbers[0])
 }
+
+for(const per in person){
+    console.log(per, ":", person[per])
+}
+
+
+// function ...........................................
+let numData=[70,30,35,65,67,10]
+function getMin(fNumbers){
+   
+    for(let minNum of fNumbers){
+        return minNum
+        // console.log(minNum)
+    }
+}
+// let fNumbers=[32,34,36,60] 
+const rMin= getMin(numData)
+console.log(rMin)
